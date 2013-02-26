@@ -4,7 +4,7 @@
   <title><![CDATA[心远地自偏]]></title>
   <link href="http://Diderot.github.com/atom.xml" rel="self"/>
   <link href="http://Diderot.github.com/"/>
-  <updated>2013-02-26T21:34:24+08:00</updated>
+  <updated>2013-02-26T21:37:00+08:00</updated>
   <id>http://Diderot.github.com/</id>
   <author>
     <name><![CDATA[Diderot]]></name>
@@ -18,9 +18,7 @@
     <link href="http://Diderot.github.com/blog/2013/02/20/hello-everyone/"/>
     <updated>2013-02-20T21:46:00+08:00</updated>
     <id>http://Diderot.github.com/blog/2013/02/20/hello-everyone</id>
-    <content type="html"><![CDATA[<h1>Hello Everyone~!</h1>
-
-<p><strong>test</strong></p>
+    <content type="html"><![CDATA[<p><strong>test</strong></p>
 
 <pre><code>this post is for test.
 </code></pre>
