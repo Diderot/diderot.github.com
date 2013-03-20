@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://Diderot.github.com/sitemap.xml 
+Sitemap: http://zhangkang.org/sitemap.xml 

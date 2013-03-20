@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://Diderot.github.com/blog/2013/02/20/hello-everyone/</loc>
+        <loc>http://zhangkang.org/blog/2013/02/20/hello-everyone/</loc>
         <lastmod>2013-03-02T18:58:12+08:00</lastmod>
     </url>
     <url>
-        <loc>http://Diderot.github.com/blog/2013/03/02/ce-shi-zhong-wen-biao-ti/</loc>
+        <loc>http://zhangkang.org/blog/2013/03/02/ce-shi-zhong-wen-biao-ti/</loc>
         <lastmod>2013-03-02T20:46:17+08:00</lastmod>
     </url>
     <url>
-        <loc>http://Diderot.github.com/about/</loc>
+        <loc>http://zhangkang.org/about/</loc>
         <lastmod>2013-03-02T21:56:38+08:00</lastmod>
     </url>
     <url>
-        <loc>http://Diderot.github.com/blog/archives/</loc>
+        <loc>http://zhangkang.org/blog/archives/</loc>
         <lastmod>2013-03-02T20:46:17+08:00</lastmod>
     </url>
     <url>
-        <loc>http://Diderot.github.com/</loc>
+        <loc>http://zhangkang.org/</loc>
         <lastmod>2013-03-02T20:46:17+08:00</lastmod>
     </url>
     <url>
-        <loc>http://Diderot.github.com/robots.txt</loc>
+        <loc>http://zhangkang.org/robots.txt</loc>
         <lastmod>2013-02-17T14:36:16+08:00</lastmod>
     </url>
 </urlset>
