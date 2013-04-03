@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Test category | Diderot's Blog]]></title>
   <link href="http://zhangkang.org/blog/categories/test-category/atom.xml" rel="self"/>
   <link href="http://zhangkang.org/"/>
-  <updated>2013-04-03T21:51:46+08:00</updated>
+  <updated>2013-04-03T21:55:50+08:00</updated>
   <id>http://zhangkang.org/</id>
   <author>
     <name><![CDATA[Diderot]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[测试中文标题]]></title>
+    <link href="http://zhangkang.org/blog/2013/03/02/ce-shi-zhong-wen-biao-ti/"/>
+    <updated>2013-03-02T20:41:00+08:00</updated>
+    <id>http://zhangkang.org/blog/2013/03/02/ce-shi-zhong-wen-biao-ti</id>
+    <content type="html"><![CDATA[<p>*测试中文内容</p>
+
+<blockquote><p>测试斜体显示</p></blockquote>
+
+<p>  <del>测试删除显示</del></p>
+
+<p>  ### 测试H3标题</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[hello everyone]]></title>
@@ -25,7 +40,7 @@
 
 <p><strong>welcome</strong></p>
 
-<pre><code>Hey, Emma, Tom, Kithy, and everyone, welcome to visit my new pages~!
+<pre><code>Hey, Emma, Tom, and everyone, welcome to visit my new pages~!
 </code></pre>
 
 <p><strong>content</strong></p>
