@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Test category | Diderot's Blog]]></title>
-  <link href="http://zhangkang.org/blog/categories/test-category/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Test | Diderot's Blog]]></title>
+  <link href="http://zhangkang.org/blog/categories/test/atom.xml" rel="self"/>
   <link href="http://zhangkang.org/"/>
-  <updated>2013-04-03T21:55:50+08:00</updated>
+  <updated>2013-04-03T21:58:11+08:00</updated>
   <id>http://zhangkang.org/</id>
   <author>
     <name><![CDATA[Diderot]]></name>
