@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Diderot's Blog]]></title>
-  <link href="http://zhangkang.org/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 每周一书 | Diderot's Blog]]></title>
+  <link href="http://zhangkang.org/blog/categories/每周一书/atom.xml" rel="self"/>
   <link href="http://zhangkang.org/"/>
   <updated>2013-04-03T22:06:48+08:00</updated>
   <id>http://zhangkang.org/</id>
@@ -52,43 +52,6 @@
 <p>跟大家提起这个想法，还是挺受欢迎，至于实施起来效果如何，倒是可以慢慢尝试。大家一起参与，也能集思广益，不断改进。</p>
 
 <p>望今年能多读几本好书，多认识几位朋友。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[测试中文标题]]></title>
-    <link href="http://zhangkang.org/blog/2013/03/02/ce-shi-zhong-wen-biao-ti/"/>
-    <updated>2013-03-02T20:41:00+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/03/02/ce-shi-zhong-wen-biao-ti</id>
-    <content type="html"><![CDATA[<p>*测试中文内容</p>
-
-<blockquote><p>测试斜体显示</p></blockquote>
-
-<p>  <del>测试删除显示</del></p>
-
-<p>  ### 测试H3标题</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[hello everyone]]></title>
-    <link href="http://zhangkang.org/blog/2013/02/20/hello-everyone/"/>
-    <updated>2013-02-20T21:46:00+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/02/20/hello-everyone</id>
-    <content type="html"><![CDATA[<p><strong>test</strong></p>
-
-<pre><code>this post is for test.
-</code></pre>
-
-<p><strong>welcome</strong></p>
-
-<pre><code>Hey, Emma, Tom, and everyone, welcome to visit my new pages~!
-</code></pre>
-
-<p><strong>content</strong></p>
-
-<pre><code>coming soon~~
-</code></pre>
 ]]></content>
   </entry>
   
