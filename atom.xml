@@ -4,7 +4,7 @@
   <title><![CDATA[Diderot's Blog]]></title>
   <link href="http://zhangkang.org/atom.xml" rel="self"/>
   <link href="http://zhangkang.org/"/>
-  <updated>2013-05-05T19:19:32+08:00</updated>
+  <updated>2013-05-05T19:32:28+08:00</updated>
   <id>http://zhangkang.org/</id>
   <author>
     <name><![CDATA[Diderot]]></name>
@@ -18,7 +18,9 @@
     <link href="http://zhangkang.org/blog/2013/05/06/%5B%E7%90%86%E8%A7%A3%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95%5D/"/>
     <updated>2013-05-06T01:25:45+08:00</updated>
     <id>http://zhangkang.org/blog/2013/05/06/[理解欧几里得算法]</id>
-    <content type="html"><![CDATA[<p>Understanding the extended Euclidean algorithm</p>
+    <content type="html"><![CDATA[<blockquote><p>这篇文章翻译自<a href="http://alicebob.cryptoland.net/">Alice and Bob Cryptoland</a></p></blockquote>
+
+<p>Understanding the extended Euclidean algorithm</p>
 
 <p>理解扩展欧几里得算法</p>
 
@@ -90,6 +92,8 @@
 <p>I think I’ll study next the seemingly magical Montgomery reduction (I understand how it works, I have even implemented it, but I still don’t know why the heck it works)…</p>
 
 <p>我想我接下来会学习#改进的蒙哥马利约减算法#（我理解它如何起作用，我也曾经使用过它，但是我还是不知道为什么它可以起作用）。</p>
+
+<p>附：<a href="http://alicebob.cryptoland.net/understanding-the-extended-euclidian-algorithm/">原文链接</a></p>
 ]]></content>
   </entry>
   
