@@ -9,8 +9,7 @@
   <meta name="author" content="Diderot">
 
   
-  <meta name="description" content="Understanding the extended Euclidean algorithm
-理解扩展欧几里得算法 The Euclidean algorithm finds the greatest common divisor of two numbers a and b. There is &hellip;">
+  <meta name="description" content="Understanding the extended Euclidean algorithm 理解扩展欧几里得算法 The Euclidean algorithm finds the greatest common divisor of two numbers a and b. There is &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -97,8 +96,9 @@
   </header>
 
 
-  <div class="entry-content"><p>Understanding the extended Euclidean algorithm
-理解扩展欧几里得算法</p>
+  <div class="entry-content"><p>Understanding the extended Euclidean algorithm</p>
+
+<p>理解扩展欧几里得算法</p>
 
 <p>The Euclidean algorithm finds the greatest common divisor of two numbers a and b. There is an extended version of it that also finds two numbers x and y such that ax + by = gcd(x,y). This is useful when searching for modular multiplicative inverses.</p>
 
@@ -109,49 +109,65 @@
 
 <p>算法本身很简单，但是我从来没有为它是如何起作用或者为什么会起作用的事情所困扰（#没有去费力弄明白#）（这实在令人惭愧，但有时候你不得不跳过试图理解一些基础的东西，来继续你的工作）。最终，我决定花点时间思考它，然后带来这篇文章。（这不是一个证明，仅仅是一些直觉性的想法，去理解算法运行的机制）。</p>
 
-<p>Suppose that you want to compute the extended Euclidean algorithm for a = 14 and b = 101. You can write
-假设你要计算a = 14 ，b = 101的扩展欧几里得算法，你可以这么做：</p>
+<p>Suppose that you want to compute the extended Euclidean algorithm for a = 14 and b = 101. You can write</p>
 
-<p>14 *   1 + 101 *   0 =  14
-14 *   0 + 101 *   1 = 101</p>
+<p>假设你要计算a = 14 ，b = 101的扩展欧几里得算法，你可以这么做：</p>
 
-<p>Which is obviously true. Now subtract the first equation from the second:
-这当然是对的。现在将第一个等式从第二个等式中减去：</p>
+<pre><code>14 *   1 + 101 *   0 =  14
+14 *   0 + 101 *   1 = 101
+</code></pre>
 
-<p>14 *   1 + 101 *   0 =  14
-14 *   0 + 101 *   1 - (14 *   1 + 101 *   0) = 101 - 14 ->
-14 *  -1 + 101 *   1 = 87</p>
+<p>Which is obviously true. Now subtract the first equation from the second:</p>
 
-<p>You can repeat this many times before reducing the right-hand 101 in the second equation to the smallest positive value possible. Notice that it’s faster to take the floor(101/14) and subtract the first equation times the result from the second. In this case, we have floor(101/14) = 7. Therefore, replace the last step with:
-你可以重复多次这个过程，直到将第二个等式右边101减到最小可能的有效值。注意这里计算（101/14）= 7. 因此，将最后一步替换为：</p>
+<p>这当然是对的。现在将第一个等式从第二个等式中减去：</p>
 
-<p>14 *   1 + 101 *   0 =  14
-14 *   0 + 101 *   1 - [7 * (14 *   1 + 101 *   0)] = 101 - [7 * 14] ->
+<pre><code>14 *   1 + 101 *   0 =  14
+14 *   0 + 101 *   1 - (14 *   1 + 101 *   0) = 101 - 14 -&gt;
+14 *  -1 + 101 *   1 = 87
+</code></pre>
+
+<p>You can repeat this many times before reducing the right-hand 101 in the second equation to the smallest positive value possible. Notice that it’s faster to take the floor(101/14) and subtract the first equation times the result from the second. In this case, we have floor(101/14) = 7. Therefore, replace the last step with:</p>
+
+<p>你可以重复多次这个过程，直到将第二个等式右边101减到最小可能的有效值。注意这里计算（101/14）= 7. 因此，将最后一步替换为：</p>
+
+<pre><code>14 *   1 + 101 *   0 =  14
+14 *   0 + 101 *   1 - [7 * (14 *   1 + 101 *   0)] = 101 - [7 * 14] -&gt;
 14 *  -7 + 101 *   1 =   3
-Now, switch equations, in order to make the first one the one with the smallest right-hand size (you’ll always need to switch):
-现在，交换等式两边，直到等式右边值最小为止（在此过程中你可能总是需要交换等式两边的值）：</p>
+</code></pre>
 
-<p>14 *  -7 + 101 *   1 =   3
+<p>Now, switch equations, in order to make the first one the one with the smallest right-hand size (you’ll always need to switch):</p>
+
+<p>现在，交换等式两边，直到等式右边值最小为止（在此过程中你可能总是需要交换等式两边的值）：</p>
+
+<pre><code>14 *  -7 + 101 *   1 =   3
 14 *   1 + 101 *   0 =  14
-And here you are. Just repeat the same step over and over:
-现在你得到这个结果，重复相同的步骤多次：</p>
+</code></pre>
 
-<p>14 *  29 + 101 *  -4 =   2
-14 *  -7 + 101 *   1 =   3</p>
+<p>And here you are. Just repeat the same step over and over:</p>
 
-<p>14 * -36 + 101 *   5 =   1
-14 *  29 + 101 *  -4 =   2</p>
+<p>现在你得到这个结果，重复相同的步骤多次：</p>
 
-<p>14 * 101 + 101 * -14 =   0
+<pre><code>14 *  29 + 101 *  -4 =   2
+14 *  -7 + 101 *   1 =   3
+
 14 * -36 + 101 *   5 =   1
-When your first equation has right-hand side equal to 0 (this will always happen), the second equation will be ax + by = gcd(x,y)!
-当你第一个等式的右边值等于零的时（这种情况总是会发生），那么第二个等式就是 ax + by = gcd(x,y)！</p>
+14 *  29 + 101 *  -4 =   2
 
-<p>As I mentioned, this is useful in order to find modular inverses: to find which number that when multiplied by 14 gives 1 (modulo 101) you run the algorithm as described and finds that it’s -36 (which is 65 modulo 101). That is, 14 * 65 = 910, which when divided by 101, gives remainder 1. Modular inverses are used in many cryptographic applications, such as RSA.
-像我提到的那样，这是对于求模逆值的非常有效的方法：去找到哪个数字乘以14然后（modulo 101）结果为1，你运行上面描述的算法，可以找到这个结果为-36（就是65 modulo 101）. 这样，14 * 65 = 910， 被101整除后余1.模逆在许多密码应用种都被用到，例如RSA.</p>
+14 * 101 + 101 * -14 =   0
+14 * -36 + 101 *   5 =   1
+</code></pre>
 
-<p>I think I’ll study next the seemingly magical Montgomery reduction (I understand how it works, I have even implemented it, but I still don’t know why the heck it works)…
-我想我接下来会学习#改进的蒙哥马利约减算法#（我理解它如何起作用，我也曾经使用过它，但是我还是不知道为什么它可以起作用）。</p>
+<p>When your first equation has right-hand side equal to 0 (this will always happen), the second equation will be ax + by = gcd(x,y)!</p>
+
+<p>当你第一个等式的右边值等于零的时（这种情况总是会发生），那么第二个等式就是 ax + by = gcd(x,y)！</p>
+
+<p>As I mentioned, this is useful in order to find modular inverses: to find which number that when multiplied by 14 gives 1 (modulo 101) you run the algorithm as described and finds that it’s -36 (which is 65 modulo 101). That is, 14 * 65 = 910, which when divided by 101, gives remainder 1. Modular inverses are used in many cryptographic applications, such as RSA.</p>
+
+<p>像我提到的那样，这是对于求模逆值的非常有效的方法：去找到哪个数字乘以14然后（modulo 101）结果为1，你运行上面描述的算法，可以找到这个结果为-36（就是65 modulo 101）. 这样，14 * 65 = 910， 被101整除后余1.模逆在许多密码应用种都被用到，例如RSA.</p>
+
+<p>I think I’ll study next the seemingly magical Montgomery reduction (I understand how it works, I have even implemented it, but I still don’t know why the heck it works)…</p>
+
+<p>我想我接下来会学习#改进的蒙哥马利约减算法#（我理解它如何起作用，我也曾经使用过它，但是我还是不知道为什么它可以起作用）。</p>
 </div>
   
   
