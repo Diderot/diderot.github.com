@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Diderot's Blog]]></title>
-  <link href="http://zhangkang.org/atom.xml" rel="self"/>
-  <link href="http://zhangkang.org/"/>
-  <updated>2013-09-08T09:50:10+08:00</updated>
-  <id>http://zhangkang.org/</id>
+  <link href="http://zhkang.me/atom.xml" rel="self"/>
+  <link href="http://zhkang.me/"/>
+  <updated>2014-06-02T23:21:41+08:00</updated>
+  <id>http://zhkang.me/</id>
   <author>
     <name><![CDATA[Diderot]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[支付行业概念浅析（二）]]></title>
-    <link href="http://zhangkang.org/blog/2013/09/03/%5B%E6%94%AF%E4%BB%98%E8%A1%8C%E4%B8%9A%E6%A6%82%E5%BF%B5%E6%B5%85%E6%9E%90%EF%BC%88%E4%BA%8C%EF%BC%89%5D/"/>
+    <link href="http://zhkang.me/blog/2013/09/03/%5B%E6%94%AF%E4%BB%98%E8%A1%8C%E4%B8%9A%E6%A6%82%E5%BF%B5%E6%B5%85%E6%9E%90%EF%BC%88%E4%BA%8C%EF%BC%89%5D/"/>
     <updated>2013-09-03T04:39:30+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/09/03/[支付行业概念浅析（二）]</id>
+    <id>http://zhkang.me/blog/2013/09/03/[支付行业概念浅析（二）]</id>
     <content type="html"><![CDATA[<h3>关于余额宝</h3>
 
 <hr />
@@ -132,9 +132,9 @@
   
   <entry>
     <title type="html"><![CDATA[支付行业概念浅析（一）]]></title>
-    <link href="http://zhangkang.org/blog/2013/08/16/%5B%E6%94%AF%E4%BB%98%E8%A1%8C%E4%B8%9A%E6%A6%82%E5%BF%B5%E6%B5%85%E6%9E%90%EF%BC%88%E4%B8%80%EF%BC%89%5D/"/>
+    <link href="http://zhkang.me/blog/2013/08/16/%5B%E6%94%AF%E4%BB%98%E8%A1%8C%E4%B8%9A%E6%A6%82%E5%BF%B5%E6%B5%85%E6%9E%90%EF%BC%88%E4%B8%80%EF%BC%89%5D/"/>
     <updated>2013-08-16T05:11:12+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/08/16/[支付行业概念浅析（一）]</id>
+    <id>http://zhkang.me/blog/2013/08/16/[支付行业概念浅析（一）]</id>
     <content type="html"><![CDATA[<p><em>支付行业近年来进入了一个战国时代，各种标准，行规，技术，概念，产品都层出不穷，第三方支付，网银，POS，刷卡器，手机银行，快捷支付，IC卡等等都在不停的试水新方向，试图摸清或者是引导消费者支付习惯。</em></p>
 
 <p><em>于是就导致概念错综复杂，不管是用户还是业内人士，都疲于应付新名词，却鲜有能对此行业做一番梳理的，一来是行业内缺乏有效的讨论和交流的环境，二来是没有国外可以照搬来参照的清晰体系。</em></p>
@@ -291,9 +291,9 @@
   
   <entry>
     <title type="html"><![CDATA[书读序言]]></title>
-    <link href="http://zhangkang.org/blog/2013/06/12/%5B%E4%B9%A6%E8%AF%BB%E5%BA%8F%E8%A8%80%5D/"/>
+    <link href="http://zhkang.me/blog/2013/06/12/%5B%E4%B9%A6%E8%AF%BB%E5%BA%8F%E8%A8%80%5D/"/>
     <updated>2013-06-12T23:25:45+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/06/12/[书读序言]</id>
+    <id>http://zhkang.me/blog/2013/06/12/[书读序言]</id>
     <content type="html"><![CDATA[<p>少年时候读书，是在毫无压力的环境下，因此不带丝毫功利性，全然是被书中有趣知识或者情节所吸引。那时候读书，基本上是随便翻开一页来读，觉得有趣的，便手不释卷的一路通读下去，直到末尾了才又回过头来将前面未读的给补上，有时甚至读到最后，根本不记得书名作者是什么，更不用说序言后记之类，无一例外被忽略。</p>
 
 <p>现在想来，是因为那时候接触到的书，基本上都是父母专门挑选给我的，或者是长辈们的收藏，因此选书鉴别这个环节，从来不需要考虑，抄起一本就是不错的读物。</p>
@@ -337,9 +337,9 @@
   
   <entry>
     <title type="html"><![CDATA[理解欧几里得算法]]></title>
-    <link href="http://zhangkang.org/blog/2013/05/06/%5B%E7%90%86%E8%A7%A3%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95%5D/"/>
+    <link href="http://zhkang.me/blog/2013/05/06/%5B%E7%90%86%E8%A7%A3%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95%5D/"/>
     <updated>2013-05-06T01:25:45+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/05/06/[理解欧几里得算法]</id>
+    <id>http://zhkang.me/blog/2013/05/06/[理解欧几里得算法]</id>
     <content type="html"><![CDATA[<blockquote><p>这篇文章翻译自<a href="http://alicebob.cryptoland.net/">Alice and Bob Cryptoland</a></p></blockquote>
 
 <p>Understanding the extended Euclidean algorithm</p>
@@ -424,9 +424,9 @@
   
   <entry>
     <title type="html"><![CDATA[《冰与火之歌》，一部非同寻常的巨著]]></title>
-    <link href="http://zhangkang.org/blog/2013/05/04/%5B%E5%86%B0%E4%B8%8E%E7%81%AB%E4%B9%8B%E6%AD%8C%5D/"/>
+    <link href="http://zhkang.me/blog/2013/05/04/%5B%E5%86%B0%E4%B8%8E%E7%81%AB%E4%B9%8B%E6%AD%8C%5D/"/>
     <updated>2013-05-04T21:29:45+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/05/04/[冰与火之歌]</id>
+    <id>http://zhkang.me/blog/2013/05/04/[冰与火之歌]</id>
     <content type="html"><![CDATA[<p>我向来对科幻小说，奇幻文学之类的东西不太感兴趣。大概是大部分作品所谓的想象力不怎么能打动我，对着很多明显是咬着笔尖硬挤出来的那么点生硬的所谓“xx世界观”和七拼八凑的幼稚的“想象力”无法忍受超过三页纸的限度。然而这本书却不在其中。</p>
 
 <p>乔治.R.R.马丁的《冰与火之歌》是一部气势恢宏的奇幻巨著，作者在其中构建了一个极其庞大而完整的世界，有着类似于中世纪欧洲的社会结构，有着这个世界特有的历史、文化、宗教和传说，有着数以百计的性格各异而又命运交织的人物形象，以及荡气回肠的英雄主义悲剧情节。</p>
@@ -486,9 +486,9 @@
   
   <entry>
     <title type="html"><![CDATA[《宽容》,另一种角度的人类历史]]></title>
-    <link href="http://zhangkang.org/blog/2013/03/31/%5B%E5%AE%BD%E5%AE%B9%5D/"/>
+    <link href="http://zhkang.me/blog/2013/03/31/%5B%E5%AE%BD%E5%AE%B9%5D/"/>
     <updated>2013-03-31T06:52:45+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/03/31/[宽容]</id>
+    <id>http://zhkang.me/blog/2013/03/31/[宽容]</id>
     <content type="html"><![CDATA[<p><em>亨德里克.威廉.房龙作品</em></p>
 
 <p>我偏爱历史类的书籍。</p>
@@ -514,9 +514,9 @@
   
   <entry>
     <title type="html"><![CDATA[每周一书]]></title>
-    <link href="http://zhangkang.org/blog/2013/03/26/%5B%E6%AF%8F%E5%91%A8%E4%B8%80%E4%B9%A6%5D/"/>
+    <link href="http://zhkang.me/blog/2013/03/26/%5B%E6%AF%8F%E5%91%A8%E4%B8%80%E4%B9%A6%5D/"/>
     <updated>2013-03-26T06:52:45+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/03/26/[每周一书]</id>
+    <id>http://zhkang.me/blog/2013/03/26/[每周一书]</id>
     <content type="html"><![CDATA[<p>写这个主要是为了和大家多交流一些读书的心得。</p>
 
 <p>近年来疲于应付工作生活，读书量每况愈下。偏偏现在可供阅读的书籍和获得书的渠道都太容易，导致面临选择问题，如何花时间来选一本好书，真是件难事。</p>
@@ -531,9 +531,9 @@
   
   <entry>
     <title type="html"><![CDATA[测试中文标题]]></title>
-    <link href="http://zhangkang.org/blog/2013/03/02/ce-shi-zhong-wen-biao-ti/"/>
+    <link href="http://zhkang.me/blog/2013/03/02/ce-shi-zhong-wen-biao-ti/"/>
     <updated>2013-03-02T20:41:00+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/03/02/ce-shi-zhong-wen-biao-ti</id>
+    <id>http://zhkang.me/blog/2013/03/02/ce-shi-zhong-wen-biao-ti</id>
     <content type="html"><![CDATA[<p>*测试中文内容</p>
 
 <blockquote><p>测试斜体显示</p></blockquote>
@@ -546,9 +546,9 @@
   
   <entry>
     <title type="html"><![CDATA[hello everyone]]></title>
-    <link href="http://zhangkang.org/blog/2013/02/20/hello-everyone/"/>
+    <link href="http://zhkang.me/blog/2013/02/20/hello-everyone/"/>
     <updated>2013-02-20T21:46:00+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/02/20/hello-everyone</id>
+    <id>http://zhkang.me/blog/2013/02/20/hello-everyone</id>
     <content type="html"><![CDATA[<p><strong>test</strong></p>
 
 <pre><code>this post is for test.

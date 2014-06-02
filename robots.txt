@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://zhangkang.org/sitemap.xml 
+Sitemap: http://zhkang.me/sitemap.xml 

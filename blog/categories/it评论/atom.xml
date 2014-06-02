@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: IT评论 | Diderot's Blog]]></title>
-  <link href="http://zhangkang.org/blog/categories/it评论/atom.xml" rel="self"/>
-  <link href="http://zhangkang.org/"/>
-  <updated>2013-09-08T09:50:10+08:00</updated>
-  <id>http://zhangkang.org/</id>
+  <link href="http://zhkang.me/blog/categories/it评论/atom.xml" rel="self"/>
+  <link href="http://zhkang.me/"/>
+  <updated>2014-06-02T23:21:41+08:00</updated>
+  <id>http://zhkang.me/</id>
   <author>
     <name><![CDATA[Diderot]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[支付行业概念浅析（二）]]></title>
-    <link href="http://zhangkang.org/blog/2013/09/03/%5B%E6%94%AF%E4%BB%98%E8%A1%8C%E4%B8%9A%E6%A6%82%E5%BF%B5%E6%B5%85%E6%9E%90%EF%BC%88%E4%BA%8C%EF%BC%89%5D/"/>
+    <link href="http://zhkang.me/blog/2013/09/03/%5B%E6%94%AF%E4%BB%98%E8%A1%8C%E4%B8%9A%E6%A6%82%E5%BF%B5%E6%B5%85%E6%9E%90%EF%BC%88%E4%BA%8C%EF%BC%89%5D/"/>
     <updated>2013-09-03T04:39:30+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/09/03/[支付行业概念浅析（二）]</id>
+    <id>http://zhkang.me/blog/2013/09/03/[支付行业概念浅析（二）]</id>
     <content type="html"><![CDATA[<h3>关于余额宝</h3>
 
 <hr />
@@ -132,9 +132,9 @@
   
   <entry>
     <title type="html"><![CDATA[支付行业概念浅析（一）]]></title>
-    <link href="http://zhangkang.org/blog/2013/08/16/%5B%E6%94%AF%E4%BB%98%E8%A1%8C%E4%B8%9A%E6%A6%82%E5%BF%B5%E6%B5%85%E6%9E%90%EF%BC%88%E4%B8%80%EF%BC%89%5D/"/>
+    <link href="http://zhkang.me/blog/2013/08/16/%5B%E6%94%AF%E4%BB%98%E8%A1%8C%E4%B8%9A%E6%A6%82%E5%BF%B5%E6%B5%85%E6%9E%90%EF%BC%88%E4%B8%80%EF%BC%89%5D/"/>
     <updated>2013-08-16T05:11:12+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/08/16/[支付行业概念浅析（一）]</id>
+    <id>http://zhkang.me/blog/2013/08/16/[支付行业概念浅析（一）]</id>
     <content type="html"><![CDATA[<p><em>支付行业近年来进入了一个战国时代，各种标准，行规，技术，概念，产品都层出不穷，第三方支付，网银，POS，刷卡器，手机银行，快捷支付，IC卡等等都在不停的试水新方向，试图摸清或者是引导消费者支付习惯。</em></p>
 
 <p><em>于是就导致概念错综复杂，不管是用户还是业内人士，都疲于应付新名词，却鲜有能对此行业做一番梳理的，一来是行业内缺乏有效的讨论和交流的环境，二来是没有国外可以照搬来参照的清晰体系。</em></p>

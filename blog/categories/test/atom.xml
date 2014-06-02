@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Test | Diderot's Blog]]></title>
-  <link href="http://zhangkang.org/blog/categories/test/atom.xml" rel="self"/>
-  <link href="http://zhangkang.org/"/>
-  <updated>2013-09-08T09:50:10+08:00</updated>
-  <id>http://zhangkang.org/</id>
+  <link href="http://zhkang.me/blog/categories/test/atom.xml" rel="self"/>
+  <link href="http://zhkang.me/"/>
+  <updated>2014-06-02T23:21:41+08:00</updated>
+  <id>http://zhkang.me/</id>
   <author>
     <name><![CDATA[Diderot]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[测试中文标题]]></title>
-    <link href="http://zhangkang.org/blog/2013/03/02/ce-shi-zhong-wen-biao-ti/"/>
+    <link href="http://zhkang.me/blog/2013/03/02/ce-shi-zhong-wen-biao-ti/"/>
     <updated>2013-03-02T20:41:00+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/03/02/ce-shi-zhong-wen-biao-ti</id>
+    <id>http://zhkang.me/blog/2013/03/02/ce-shi-zhong-wen-biao-ti</id>
     <content type="html"><![CDATA[<p>*测试中文内容</p>
 
 <blockquote><p>测试斜体显示</p></blockquote>
@@ -30,9 +30,9 @@
   
   <entry>
     <title type="html"><![CDATA[hello everyone]]></title>
-    <link href="http://zhangkang.org/blog/2013/02/20/hello-everyone/"/>
+    <link href="http://zhkang.me/blog/2013/02/20/hello-everyone/"/>
     <updated>2013-02-20T21:46:00+08:00</updated>
-    <id>http://zhangkang.org/blog/2013/02/20/hello-everyone</id>
+    <id>http://zhkang.me/blog/2013/02/20/hello-everyone</id>
     <content type="html"><![CDATA[<p><strong>test</strong></p>
 
 <pre><code>this post is for test.
